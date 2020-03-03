@@ -1,0 +1,55 @@
+/* background #F5F5F5
+magenta #ED1E79
+blue #0000FF */
+
+@font-face {
+    font-family: Gilroy-ExtraBold; /* Имя шрифта */
+    src: url(../fonts/Gilroy-FREE/Gilroy-ExtraBold.otf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Gilroy-Light; /* Имя шрифта */
+    src: url(../fonts/Gilroy-FREE/Gilroy-Light.otf); /* Путь к файлу со шрифтом */
+}
+
+* {
+    font-family: Gilroy-Light, sans-serif;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.main-text {
+    font-weight: 400;
+}
+
+.pink-text {
+    color: #ED1E79;
+    text-decoration: underline;
+    font-family: Gilroy-ExtraBold, sans-serif;
+}
+
+.pink-text:hover {
+    color: #d40a61 !important;
+}
+
+.blue-text {
+    color: #0000FF;
+    text-decoration: underline;
+    font-family: Gilroy-ExtraBold, sans-serif;
+}
+
+.blue-text:hover {
+    color: #0000ce !important;
+}
+
+.label-top {
+    width: 200px;
+}
+
+.label-bottom {
+    position: fixed;
+    bottom: 50px;
+    width: 300px;
+}
