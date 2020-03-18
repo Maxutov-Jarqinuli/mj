@@ -53,3 +53,7 @@ body {
     bottom: 50px;
     width: 300px;
 }
+
+.text-dark:hover {
+    text-decoration: underline;
+}
