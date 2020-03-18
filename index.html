@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="shortcut icon" href="assets/favicon/android-icon-192x192.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/libs/fullpage/fullpage.min.css">
 
     <link rel="stylesheet" href="assets/css/main.css">
 
@@ -15,42 +16,47 @@
   </head>
   <body>
     
-    <section class="vh-100" id="main">
-      <div class="row justify-content-center vh-100 m-0">
-        <div class="col-md-10 mx-auto px-0 pl-3">
-          <ul class="nav justify-content-end mt-3">
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#calc">Калькулятор</a>
-            </li>
-          </ul>
-
-          <div class="row w-100 py-5"></div>
-          
-          <img src="assets/img/mj_label_black_two_row.svg" class="label-top" alt="">
-          
-          <div class="row w-100 py-5"></div>
-          
-          <h1 class="main-text">Скоро тут будет наше портфолио. <br> Пока вот наш <a href="http://instagram.com/maxutov.jarqinuli" class="pink-text">Инстаграм</a> и <a href="https://forms.gle/fxwYx15w4G3iH7Xi6" class="blue-text">форма для заказа</a>.</h1>
-
-          <div class="row w-100 py-0 py-lg-5 my-5"></div>
-          <div class="d-none d-md-block row w-100 py-5"></div>
-
-          <h4 class="text-muted">Maxutov & Jarqinuli, 2020</h4>
+    <div id="fullpage">
+      <section class="section">
+        <div class="row justify-content-center vh-100 m-0">
+          <div class="col-md-10 mx-auto px-0 pl-3">
+            <ul class="nav justify-content-end mt-3">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#calculator">Калькулятор</a>
+              </li>
+            </ul>
+  
+            <div class="row w-100 py-3 py-md-5 "></div>
+            
+            <img src="assets/img/mj_label_black_two_row.svg" class="label-top" alt="">
+            
+            <div class="row w-100 py-3 py-md-5"></div>
+            
+            <h1 class="main-text">Скоро тут будет наше портфолио. <br> Пока вот наш <a href="http://instagram.com/maxutov.jarqinuli" class="pink-text">Инстаграм</a> и <a href="https://forms.gle/fxwYx15w4G3iH7Xi6" class="blue-text">форма для заказа</a>.</h1>
+  
+            <div class="row w-100 py-0 py-lg-5 my-5"></div>
+            <div class="d-none d-md-block row w-100 py-5"></div>
+  
+            <h4 class="text-muted">Maxutov & Jarqinuli, 2020</h4>
+          </div>
         </div>
-      </div>
-    </section>
-
-    <section class="vh-100 pt-5" id="calc">
-      <h1 class="text-center ">Калькулятор</h1>
-      <div class="uCalc_268521"></div><script> var widgetOptions268521 = { bg_color: "transparent" }; (function() { var a = document.createElement("script"), h = "head"; a.async = true; a.src = (document.location.protocol == "https:" ? "https:" : "http:") + "//ucalc.pro/api/widget.js?id=268521&t="+Math.floor(new Date()/18e5); document.getElementsByTagName(h)[0].appendChild(a) })();</script>
-    </section>
+      </section>
+  
+      <section class="section" id="calculator">
+        <h1 class="text-center ">Калькулятор</h1>
+        <div class="uCalc_268521"></div>
+      </section>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  
+    <script src="assets/libs/fullpage/scrolloverflow.js"></script>
+    <script src="assets/libs/fullpage/fullpage.min.js"></script>
+
+    
     <script src="assets/js/main.js"></script>
   </body>
 </html>
